@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: none;
+    padding: 1px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.image-div {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li .link{
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: none;
+    color: white;
+    font-weight: 600 boldg;
+
+}
+
+.auth-buttons button {
+    padding: 16px 18px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 0.5em;
+    background-color: none; /* Example - adjust to your colors */
+    color: #fff;
+    font-weight: 500 bold;
+    cursor: pointer;
+}
+
+.login-button {
+    color: #fff;
+}
+
+.hero {
+    background-color: none;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-text{
+    color: #fff;
+}
+
+.container2 button {
+    padding: 20px 27px;
+    border: none;
+    border-radius: 2em;
+    background-color: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.color-analysis {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.color-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.color-input {
+    margin-bottom: 10px;
+}
+
+.color-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="color"],
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+#analyze-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #170017;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600 bold;
+    font-size: 1em;
+}
+#analyze-button:hover {
+    background-color: #300130;
+}
+
+.analysis-results {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.color-swatch {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.color-usage-guide {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.color-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.example-container {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.example-container p {
+    font: 1.2em bold;
+}
+
+.analysis-results p {
+    font: 1.5em bold;
+}
+
+.color-preview {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Palette Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container1">
+            <a href="#" class="logo">
+                <div class="image-div">
+                    <img src="Logo.png5.png" alt="Your Logo"> 
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">Features</a></li>
+                    <li><a href="#" class="link">Pricing</a></li>
+                    <li><a href="#" class="link">Blog</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="signup-button">Sign Up</button>
+                <button class="login-button">Log In</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container2">
+            <h1 class="hero-text">Welcome to Your Color Palette Guide</h1>
+            <p class="hero-text">Explore the art of color combinations and discover the perfect palettes for your website.</p>
+            <button class="get-started">Get Started</button>
+        </div>
+    </section>
+
+    <main>
+        <section class="color-analysis">
+            <h2>Analyze Your Colors</h2>
+            <div class="color-inputs-container">
+                <div class="color-input">
+                    <label for="color-1">Color 1:</label>
+                    <input type="color" id="color-1" value="#ff0000">
+                    <input type="text" id="color1-hex" value="#ff0000" readonly>
+                </div>
+                <div class="color-input">
+                    <label for="color-2">Color 2:</label>
+                    <input type="color" id="color-2" value="#00ff00">
+                    <input type="text" id="color2-hex" value="#00ff00" readonly>
+                </div>
+                <div class="color-input">
+                    <label for="color-3">Color 3:</label>
+                    <input type="color" id="color-3" value="#0000ff">
+                    <input type="text" id="color3-hex" value="#0000ff" readonly>
+                </div>
+                <div class="color-input">
+                    <label for="color-4">Color 4:</label>
+                    <input type="color" id="color-4" value="#ffff00">
+                    <input type="text" id="color4-hex" value="#ffff00" readonly>
+                </div>
+                <div class="color-input">
+                    <label for="color-5">Color 5:</label>
+                    <input type="color" id="color-5" value="#00ffff">
+                    <input type="text" id="color5-hex" value="#00ffff" readonly>
+                </div>
+                <button id="analyze-button">Analyze</button>
+            </div>
+
+            <div class="analysis-results">
+                <h2>Analysis Results</h2>
+                <div class="color-palette">
+                    <div class="color-swatch" id="swatch-1"></div>
+                    <div class="color-swatch" id="swatch-2"></div>
+                    <div class="color-swatch" id="swatch-3"></div>
+                    <div class="color-swatch" id="swatch-4"></div>
+                    <div class="color-swatch" id="swatch-5"></div>
+                </div>
+                <p id="analysis-text"></p> 
+            </div>
+        </section>
+
+        <section class="color-usage-guide">
+            <h2>Applying Your Palette</h2>
+            <div class="color-examples">
+                <div class="example-container">
+                    <h3>links</h3>
+                    <div class="color-preview" id="background-preview"></div>
+                    <p class="score"></p>
+                    <p>Recommended color for your website links.</p>
+                </div>
+                <div class="example-container">
+                    <h3>Singup</h3>
+                    <div class="color-preview" id="button-preview"></div>
+                    <p class="score"></p>
+                    <p>Recommended color for signup button.</p>
+                </div>
+                <div class="example-container">
+                    <h3>Login and Get-started</h3>
+                    <div class="color-preview" id="hover-preview"></div>
+                    <p class="score"></p>
+                    <p>Recommended color for login & get-started buttons.</p>
+                </div>
+                <div class="example-container">
+                    <h3>Hero Background</h3>
+                    <div class="color-preview" id="text-preview"></div>
+                    <p class="score"></p>
+                    <p>Recommended color for your website hero background.</p>
+                </div>
+                <div class="example-container">
+                    <h3>Header background</h3>
+                    <div class="color-preview" id="text-preview"></div>
+                    <p class="score"></p>
+                    <p>Recommended color for your website header background.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Company Name</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
